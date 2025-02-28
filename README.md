@@ -23,7 +23,7 @@ impl PersonalInfo<'_> {
         vec![
             ("Advanced", vec!["Linux", "Rust"]),
             ("Intermediate", vec!["C", "Java", "Kotlin", "Docker", "Git"]),
-            ("Beginner", vec!["F#", "Python", "Bash", "SQL", "Prolog"])
+            ("Beginner", vec!["F#", "Python", "Bash", "SQL", "Prolog", "Terraform"])
         ]
     }
 }
