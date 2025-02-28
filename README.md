@@ -14,7 +14,7 @@ impl PersonalInfo<'_> {
         PersonalInfo {
             name: "Philip Cramer",
             description: "I am a software engineering student at DTU",
-            mail: "",
+            mail: "s224319@dtu.dk",
             interests: vec!["Linux", "Programming", "Cyber Security", "System Engineering"],
             skillset: PersonalInfo::my_skills()
         }
