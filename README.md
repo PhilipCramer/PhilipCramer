@@ -1,10 +1,10 @@
 ## Compile check? 
 ```rust
-struct PersonalInfo<'dynamic> {
-    name: &'static str,
-    description: &'dynamic str,
-    mail: &'static str,
-    interests: Vec<&'dynamic str>,
+struct PersonalInfo<'a> {
+    name: &'a str,
+    description: &'a str,
+    mail: &'a str,
+    interests: Vec<&'a str>,
     skillset: Vec<Skills>
 }
 type Skills = (&'static str, Vec<&'static str>);
