@@ -22,8 +22,8 @@ impl PersonalInfo<'_> {
     fn my_skills() -> Vec<Skills> {
         vec![
             ("Advanced", vec!["Linux", "Rust"]),
-            ("Intermediate", vec!["C", "Java", "Kotlin", "Docker", "Git"]),
-            ("Beginner", vec!["F#", "Python", "Bash", "SQL", "Prolog", "OpenTofu"])
+            ("Intermediate", vec!["C", "Bash", "Java", "Kotlin", "Docker", "Git"]),
+            ("Beginner", vec!["F#", "Python", "SQL", "Prolog", "OpenTofu"])
         ]
     }
 }
